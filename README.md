@@ -12,21 +12,21 @@ This project is a Python-based automation tool built to **periodically fetch act
 OIPulse provides real-time options market data, including strike-level OI values for CE and PE.
 
 This tool solves that by:
-- Allowing the user to log in manually to OIPulse once via Chrome browser
-- Saving session cookies and JWT token securely
-- Automatically fetching updated active strike IV and OI data every 5 minutes
-- Saving the data into a structured CSV file for each day
+- Allowing the user to log in manually to OIPulse once via Chrome browser.
+- Saving session cookies and JWT token securely.
+- Automatically fetching updated active strike IV and OI data every 5 minutes.
+- Saving the data into a structured CSV file for each day.
 
 ---
 
 ## 🚀 Features
 
-- 🔐 Manual login support with automatic session capture (cookies + token)
-- ♻️ Auto-refresh every 5 minutes
-- 🧹 Filters to skip invalid timestamps and only keep valid 5-min data
-- 📁 Saves data in `live_data.csv` per date
-- 🧠 Smart handling of 09:15 missing data (accepts 09:16/09:17 as fallback)
-- 📊 Output: Date, Time, Asset Price, CE OI, PE OI, Fetched At
+- 🔐 Manual login support with automatic session capture (cookies + token).
+- ♻️ Auto-refresh every 5 minutes.
+- 🧹 Filters to skip invalid timestamps and only keep valid 5-min data.
+- 📁 Saves data in `live_data.csv` per date.
+- 🧠 Smart handling of 09:15 missing data (accepts 09:16/09:17 as fallback).
+- 📊 Output: Date, Time, Asset Price, CE OI, PE OI, Fetched At.
 
 ---
 
