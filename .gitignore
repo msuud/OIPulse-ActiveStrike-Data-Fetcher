@@ -1,0 +1,36 @@
+# === Sensitive Files ===
+cookies.json
+token.json
+live_data.csv
+
+# === Python Caches ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# === Virtual Environments ===
+env/
+venv/
+ENV/
+
+# === PyInstaller Build Output ===
+*.spec
+*.exe
+*.pkg
+*.pyz
+*.toc
+*.zip
+*.html
+*.txt
+build/
+dist/
+localpycs/
+
+# === Logs and Warnings ===
+warn-*.txt
+xref-*.html
+
+# === System Files ===
+.DS_Store
+Thumbs.db
