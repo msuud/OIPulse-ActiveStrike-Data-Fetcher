@@ -4,7 +4,7 @@ This project is a Python-based automation tool built to **periodically fetch act
 
 ## 🧠 Overview
 
-- This project was developed for a client (my father), who needed to automatically track the live chart data from the OIPulse Active Strikes IV page.
+- This project was developed for a client, who needed to automatically track the live chart data from the OIPulse Active Strikes IV page.
 - The goal was to eliminate manual entry by updating the chart data into an Excel file every 5 minutes.
 - The solution fetches live API data, filters it, and writes it neatly into a structured Excel file.
 - This automation saves time, ensures accuracy, and meets the real-time monitoring need of the client.
